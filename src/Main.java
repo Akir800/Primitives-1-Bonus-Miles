@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         int price = 5600;
-        int bonusMiles = 20;
+        int rublesPerMiles = 20;
 
-        int bonus = price / bonusMiles;
+        int bonus = price / rublesPerMiles;
 
-        System.out.println("Alex, How are you? Your bonus" + bonus);
+        System.out.println("Alex, Congratulations! Your bonus" + bonus);
     }
 }
